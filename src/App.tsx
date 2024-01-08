@@ -9,7 +9,7 @@ import Contact from './components/contact-us/contact';
 
 const App: React.FC =() => {
   return (
-    <BrowserRouter basename='/Vegetables-main'>
+    <BrowserRouter basename='/'>
       <div className="app">
         <Header />
         <Routes>

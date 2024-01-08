@@ -84,7 +84,7 @@ const Main: React.FC = () => {
         </p>
 
         <Routes>
-          <Route path='/Vegetables-main' element={
+          <Route path='/' element={
             <Link to='/cart' onClick={() => dispatch(setSearchValue(''))}>
               <div className="main__cart">
                 <div
@@ -99,7 +99,7 @@ const Main: React.FC = () => {
           }/>
 
           <Route path='/cart' element={
-            <Link to='/Vegetables-main'>
+            <Link to='/'>
               <div className="main__cart--buttons">
                 {totallyAmountProducts === 0 ? ''
                   : <button
@@ -119,7 +119,7 @@ const Main: React.FC = () => {
         </Routes>
         
         <Routes>
-          <Route path='/Vegetables-main' element={
+          <Route path='/' element={
             <div className="main__content--cards">
               <div className="main__categories">
                 <Searchbar />
