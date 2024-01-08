@@ -2,6 +2,7 @@
   "name": "vegetables",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Evgenb000.github.io/Vegetables-main",
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.17.0",
@@ -25,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -51,6 +54,7 @@
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.9",
     "@types/node-sass": "^4.11.7",
+    "gh-pages": "^6.1.1",
     "sass": "^1.69.5"
   }
 }
