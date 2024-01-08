@@ -1,0 +1,47 @@
+@import '../../../scss/main.scss';
+
+.swiper {
+  &__slide {
+    border: 2px solid $colorBRD;
+    border-radius: $radius;
+    padding: 12px;
+    height: 210px;
+    width: 300px;
+    background-color: #fff;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+  }
+
+  &__image {
+    width: 72px;
+    height: 72px;
+    border-radius: $radius;
+  }
+
+  &__rating {
+    display: flex;
+    padding-left: 8px;
+    padding-top: 8px;
+
+    &--active {
+      background-image: url(../../../assets/images/icon-star-active.png);
+      background-size: contain;
+      height: 24px;
+      width: 20px;
+      background-repeat: no-repeat;
+    }
+
+    &--disabled {
+      background-image: url(../../../assets/images/icon-star-disabled.png);
+      background-size: contain;
+      height: 24px;
+      width: 20px;
+      background-repeat: no-repeat;
+    }
+  }
+}

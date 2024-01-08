@@ -1,0 +1,121 @@
+@import '../../../scss/main.scss';
+
+.card { 
+  background-color: #fff;
+  border-radius: 12px;
+  transition: transform $duration ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+
+    @include OnTablet {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include OnMobile {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__item {
+    border: 1px solid $colorBRD;
+    box-shadow: 2px 0 2px $colorSHDW;
+    border-radius: 12px 12px 0px 0px;
+    padding: 12px;
+  }
+
+  &__title {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+
+    @include OnMobile {
+      height: 100px;
+    }
+  }
+
+  &__description {
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 21px;
+    border-radius: 0px 0px 12px 12px;
+    border: 1px solid $colorBRD;
+    box-shadow: 2px 1px 2px $colorSHDW;
+    transform: translateY(-1px);
+
+    @include OnMobile {
+      font-size: 16px;
+    }
+  }
+
+  &__price {
+    padding: 12px 16px;
+    
+    @include OnMobile {
+      padding: 12px 8px;
+    }
+  }
+
+  &__buy {
+    padding: 12px 32px;
+    font-size: 27px;
+    transition: text-shadow $duration ease;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+
+    &__counter {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      top: 0;
+      right: 0;
+      margin: 8px;
+      font-size: 20px;
+      background-color: $colorBG;
+      border-radius: 20px;
+      text-shadow: none;
+    }
+
+    &:hover {
+      text-shadow: 2px 2px $colorSHDW;
+    }
+
+    @include OnMobile {
+      padding: 12px 12px;
+      font-size: 18px;
+    }
+  }
+
+  &__error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    width: 1100px;
+
+    &__text {
+      font-size: 27px;
+      margin-top: 20px;
+    }
+  }
+}

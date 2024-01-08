@@ -1,0 +1,30 @@
+@import '../../scss/main.scss';
+
+.footer {
+  padding-bottom: 8px;
+
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+  }
+
+  &__link {
+    color: $colorTXT;
+  }
+
+  &__contact {
+    width: 300px;
+  }
+
+  &__social {
+    width: 330px;
+    text-align: center;
+  }
+
+  &__copyright {
+    width: 300px;
+    text-align: right;
+  }
+}

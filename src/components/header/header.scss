@@ -1,0 +1,13 @@
+@import '../../scss/main.scss';
+
+.header {
+  margin: 0 auto $marginBTM;
+  padding-top: 8px;
+
+  &__container {
+    padding: 8px 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

@@ -1,0 +1,103 @@
+@import '../../../scss/main.scss';
+
+.cart {
+  text-align: center;
+
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  &__no-product {
+    margin: 40px;
+    margin-top: 80px;
+
+    &__img {
+      width: 400px;
+      margin: 40px 0;
+    }
+  }
+
+  &__description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+
+    @include OnMobile {
+      font-size: 16px;
+    }
+  }
+
+  &__table {
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid $colorBRD;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0 16px;
+
+    @include OnMobile {
+      font-size: 14px;
+    }
+
+    &--none {
+      display: none;
+    }
+  }
+
+  &__item {
+    width: 240px;
+
+    @include OnMobile {
+      width: 200px;
+    }
+  }
+
+  &__img {
+    height: 60px;
+    width: 60px;
+  }
+
+  &__amount {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--minus {
+      margin: 12px;
+      width: 40px;
+
+      @include OnMobile {
+        width: 28px;
+        margin: 4px;
+      }
+    }
+
+    &--plus {
+      margin: 12px;
+      width: 40px;
+
+      @include OnMobile {
+        width: 28px;
+        margin: 4px;
+      }
+    }
+
+    @include OnMobile {
+      font-size: 18px;
+    }
+  }
+
+  &__category {
+    width: 400px;
+  }
+}
+

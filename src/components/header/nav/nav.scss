@@ -1,0 +1,39 @@
+@import '../../../scss/main.scss';
+
+.nav {
+  &__list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+
+    @include OnMobile {
+      min-width: 8px
+    }
+  }
+
+  &__item {
+    font-weight: 600;
+    color: $colorTXT;
+    transition: text-shadow 0.3s ease;
+    padding: 16px;
+    min-width: 220px;
+    transition: box-shadow, border 0.3s ease;
+    border-radius: $radius;
+    border: 1px solid #cccccc00;
+    cursor: pointer;
+
+    @include OnTablet {
+      min-width: 100px
+    }
+
+    @include OnMobile {
+      min-width: 80px
+    }
+
+    &:hover {
+      box-shadow: 2px 2px 2px $colorSHDW;
+      border: 1px solid $colorBRD;
+    }
+  }
+} 

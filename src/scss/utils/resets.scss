@@ -1,0 +1,27 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, 
+a, address, img, b, u, i, center,
+ol, ul, li, fieldset, form, label, legend,
+table, caption, article, aside, details,
+figure, figcaption, footer, header, 
+menu, nav, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 10px;
+} 
+
+*, *::before, *::after { box-sizing: inherit; }
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,10 @@
+@import '../../scss/main.scss';
+
+.logo {
+  padding: 8px 12px;
+  transition: transform $duration ease;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}

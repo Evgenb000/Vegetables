@@ -1,0 +1,20 @@
+.button {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 8px;  
+  border: 2px solid $colorBRD;
+  background-color: white;
+  border-radius: 8px;
+  transition: box-shadow $duration ease;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 2px 2px 2px $colorSHDW;
+  }
+
+  &:active {
+    background-color: $colorBG;
+  }
+}

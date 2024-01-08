@@ -1,0 +1,34 @@
+@import '../../../scss/main.scss';
+
+.input {
+  font-family: 'Kano';
+  height: $heightBTN;
+  border: 0;
+  font-size: 1.8rem;
+
+  &__container {
+    border-radius: $radius;
+    transition: box-shadow $duration ease;
+
+    &:hover {
+      box-shadow: 2px 2px 2px $colorSHDW;
+    }
+  }
+
+  &::placeholder {
+    font-family: 'Kanit', sans-serif;
+  }
+
+  &[type="search"] {
+    outline: 0;
+    width: 100%;
+    background: white;
+    padding: 0 1.6rem;
+    border-radius: $radius;
+    appearance: none;
+    transition: all $duration $bezier;
+    transition-property: width, border-radius, outline, box-shadow;
+    z-index: 1;
+    position: relative;
+  }
+}

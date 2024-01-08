@@ -1,0 +1,37 @@
+@import '../../../../scss/main.scss';
+
+.order {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__modal {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    background-color: #fff;
+    border: 1px solid $colorBRD;
+    border-radius: $radius;
+    opacity: 1;
+    padding: 20px;
+  }
+
+  &__close {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  &__content {
+    font-size: 21px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "firstName": "Michael",
+    "lastName": "Sweat",
+    "rating": 5,
+    "comment": "Thank you, I liked everything, the service is excellent, the quality of the products is excellent, I will use your services again."
+  },
+  {
+    "id": 1,
+    "firstName": "Anna",
+    "lastName": "",
+    "rating": 4,
+    "comment": "Great experience overall!"
+  },
+  {
+    "id": 2,
+    "firstName": "John",
+    "lastName": "Doe",
+    "rating": 3,
+    "comment": "Service was good, but could be improved."
+  },
+  {
+    "id": 3,
+    "firstName": "Emily",
+    "lastName": "",
+    "rating": 5,
+    "comment": "Absolutely fantastic service!"
+  },
+  {
+    "id": 4,
+    "firstName": "David",
+    "lastName": "Smith",
+    "rating": 2,
+    "comment": "Disappointed with the quality of products."
+  },
+  {
+    "id": 5,
+    "firstName": "Sophia",
+    "lastName": "",
+    "rating": 5,
+    "comment": "Outstanding service!"
+  },
+  {
+    "id": 6,
+    "firstName": "Matthew",
+    "lastName": "",
+    "rating": 4,
+    "comment": "Good service, but delivery was a bit slow."
+  },
+  {
+    "id": 7,
+    "firstName": "Olivia",
+    "lastName": "Johnson",
+    "rating": 5,
+    "comment": "Excellent products and service!"
+  },
+  {
+    "id": 8,
+    "firstName": "William",
+    "lastName": "",
+    "rating": 3,
+    "comment": "Average experience, could be better."
+  },
+  {
+    "id": 9,
+    "firstName": "Emma",
+    "lastName": "Brown",
+    "rating": 4,
+    "comment": "Satisfied with the overall service."
+  }
+]
