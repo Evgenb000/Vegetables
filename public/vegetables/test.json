@@ -1,0 +1,263 @@
+[
+  {
+    "id": 0,
+    "title": "artichoke",
+    "image": "Vegetables-main/vegetables/artichoke.png",
+    "price": "7",
+    "rating": "2",
+    "category": [
+      "Round",
+      "Green",
+      "Perennial plant",
+      "Artichoke"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "asparagus",
+    "image": "Vegetables-main/vegetables/asparagus.png",
+    "price": "9",
+    "rating": "4",
+    "category": [
+      "Long",
+      "Green",
+      "Perennial plant",
+      "Asparagus"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "beet",
+    "image": "Vegetables-main/vegetables/beet.png",
+    "price": "8",
+    "rating": "3",
+    "category": [
+      "Root vegetable",
+      "Red",
+      "Biennial plant",
+      "Beet"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "bok choy",
+    "image": "Vegetables-main/vegetables/bok-choy.png",
+    "price": "9",
+    "rating": "4",
+    "category": [
+      "Leafy",
+      "Green",
+      "Annual plant",
+      "Bok choy"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "broccoli",
+    "image": "Vegetables-main/vegetables/broccoli.png",
+    "price": "6",
+    "rating": "3",
+    "category": [
+      "Flowery",
+      "Green",
+      "Biennial plant",
+      "Broccoli"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "celery",
+    "image": "Vegetables-main/vegetables/celery.png",
+    "price": "7",
+    "rating": "4",
+    "category": [
+      "Stem vegetable",
+      "Green",
+      "Biennial plant",
+      "Celery"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "collard greens",
+    "image": "Vegetables-main/vegetables/collard-greens.png",
+    "price": "8",
+    "rating": "3",
+    "category": [
+      "Leafy",
+      "Green",
+      "Biennial plant",
+      "Collard greens"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "cute pumpkin",
+    "image": "Vegetables-main/vegetables/cute-pumpkin.png",
+    "price": "8",
+    "rating": "3",
+    "category": [
+      "Squash",
+      "Orange",
+      "Annual plant",
+      "Cute pumpkin"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "eggplant",
+    "image": "Vegetables-main/vegetables/eggplant.png",
+    "price": "7",
+    "rating": "4",
+    "category": [
+      "Solanum",
+      "Purple",
+      "Perennial plant",
+      "Eggplant"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "finocchio",
+    "image": "Vegetables-main/vegetables/finocchio.png",
+    "price": "6",
+    "rating": "3",
+    "category": [
+      "Bulb",
+      "White",
+      "Biennial plant",
+      "Finocchio"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "gailan",
+    "image": "Vegetables-main/vegetables/gailan.png",
+    "price": "9",
+    "rating": "4",
+    "category": [
+      "Leafy",
+      "Green",
+      "Annual plant",
+      "Gailan"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "hazelnut",
+    "image": "Vegetables-main/vegetables/hazelnut.png",
+    "price": "6",
+    "rating": "3",
+    "category": [
+      "Nuts",
+      "Round",
+      "Brown",
+      "Tree",
+      "Hazelnut"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "kale",
+    "image": "Vegetables-main/vegetables/kale.png",
+    "price": "9",
+    "rating": "4",
+    "category": [
+      "Leafy",
+      "Green",
+      "Annual plant",
+      "Kale"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "peas",
+    "image": "Vegetables-main/vegetables/peas.png",
+    "price": "6",
+    "rating": "3",
+    "category": [
+      "Pod",
+      "Green",
+      "Annual plant",
+      "Peas"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "potato",
+    "image": "Vegetables-main/vegetables/potato.png",
+    "price": "7",
+    "rating": "3",
+    "category": [
+      "Tuber",
+      "Brown",
+      "Perennial plant",
+      "Potato"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "spinach",
+    "image": "Vegetables-main/vegetables/spinach.png",
+    "price": "9",
+    "rating": "3",
+    "category": [
+      "Leafy",
+      "Green",
+      "Annual plant",
+      "Spinach"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "tomato",
+    "image": "Vegetables-main/vegetables/tomato.png",
+    "price": "6",
+    "rating": "3",
+    "category": [
+      "Solanum",
+      "Red",
+      "Annual plant",
+      "Tomato"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "zucchini",
+    "image": "Vegetables-main/vegetables/zucchini.png",
+    "price": "7",
+    "rating": "3",
+    "category": [
+      "Squash",
+      "Green",
+      "Annual plant",
+      "Zucchini"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "squash",
+    "image": "Vegetables-main/vegetables/squash.png",
+    "price": "8",
+    "rating": "3",
+    "category": [
+      "Squash",
+      "Yellow",
+      "Annual plant",
+      "Squash"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "you choy",
+    "image": "Vegetables-main/vegetables/you-choy.png",
+    "price": "5",
+    "rating": "3",
+    "category": [
+      "Leafy",
+      "Green",
+      "Annual plant",
+      "You choy"
+    ]
+  }
+]

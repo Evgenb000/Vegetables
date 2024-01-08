@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     <header className="header">
       <div className="header__container container">
         <div className="header__logo">
-          <Link to='/'>
+          <Link to='/Vegetables-main'>
             <Logo />
           </Link>
         </div>
