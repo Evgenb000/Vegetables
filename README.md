@@ -1,4 +1,4 @@
-[DEMO Link](https://evgenb000.github.io/Vegetables/)
+[DEMO Link](https://evgenb000.github.io/Vegetables/){:target="_blank"}
 
 Installation
 Instructions on how to install the project:
