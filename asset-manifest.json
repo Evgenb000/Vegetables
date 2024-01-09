@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Vegetables/static/css/main.60482780.css",
+    "main.js": "/Vegetables/static/js/main.a11411df.js",
+    "static/media/neutral-face-slime.png": "/Vegetables/static/media/neutral-face-slime.d46f963801e60e9bb7a4.png",
+    "index.html": "/Vegetables/index.html",
+    "main.60482780.css.map": "/Vegetables/static/css/main.60482780.css.map",
+    "main.a11411df.js.map": "/Vegetables/static/js/main.a11411df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60482780.css",
+    "static/js/main.a11411df.js"
+  ]
+}
