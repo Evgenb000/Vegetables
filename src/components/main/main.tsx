@@ -1,13 +1,11 @@
 import React from 'react';
 import { Routes, Route, Link, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { clearProducts } from '../../redux/slices/productSlice';
 import { InitialStateType, setFilters } from '../../redux/slices/filterSlice';
 import { fetchedVegetables } from '../../redux/slices/vegetablesSlice';
 import qs from 'qs';
 
 import Card from './card/card';
-import Cart from '../cart/cart';
 import Sortby from './sortby/sortby';
 import Searchbar from './searchbar/searchbar';
 
