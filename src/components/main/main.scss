@@ -52,39 +52,6 @@
       margin: 0 auto;
     }
 
-    &--buttons {
-      @include OnMobile {
-        text-align: center;
-        margin-bottom: 20px;
-      }
-    }
-
-    &--button {
-      position: absolute;
-      width: 100px;
-      height: 60px;
-      top: 20px;
-      right: 20px;
-
-      @include OnMobile {
-        position: initial;
-        margin: 16px 20px;
-      }
-    }
-
-    &--clear {
-      position: absolute;
-      width: 140px;
-      height: 60px;
-      top: 20px;
-      right: 140px; 
-
-      @include OnMobile {
-        position: initial;
-        margin: 0 20px;
-      }  
-    }
-
     &:hover {
       transform: scale(1.1);
     }

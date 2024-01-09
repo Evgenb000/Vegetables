@@ -1,7 +1,13 @@
-@import '../../../scss/main.scss';
+@import '../../scss/main.scss';
 
 .cart {
   text-align: center;
+  margin: 40px auto;
+
+  &__container {
+    padding: 24px;
+    position: relative;
+  }
 
   &__title {
     font-size: 24px;
@@ -9,9 +15,43 @@
     margin-bottom: 20px;
   }
 
+  &__buttons {
+    @include OnMobile {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+
+  
+  &__button {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    top: 20px;
+    right: 20px;
+
+    @include OnMobile {
+      position: initial;
+      margin: 16px 20px;
+    }
+  }
+
+  &__clear {
+    position: absolute;
+    width: 140px;
+    height: 60px;
+    top: 20px;
+    right: 140px; 
+
+    @include OnMobile {
+      position: initial;
+      margin: 0 20px;
+    }  
+  }
+
   &__no-product {
     margin: 40px;
-    margin-top: 80px;
+    margin-top: 0;
 
     &__img {
       width: 400px;
@@ -26,6 +66,7 @@
     font-size: 20px;
     line-height: 27px;
     margin-bottom: 20px;
+    margin-top: 60px;
 
     @include OnMobile {
       font-size: 16px;

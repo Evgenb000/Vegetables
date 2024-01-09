@@ -7,7 +7,7 @@ import { fetchedVegetables } from '../../redux/slices/vegetablesSlice';
 import qs from 'qs';
 
 import Card from './card/card';
-import Cart from './cart/cart';
+import Cart from '../cart/cart';
 import Sortby from './sortby/sortby';
 import Searchbar from './searchbar/searchbar';
 
@@ -97,25 +97,6 @@ const Main: React.FC = () => {
               </div>
             </Link>
           }/>
-
-          <Route path='/cart' element={
-            <Link to='/'>
-              <div className="main__cart--buttons">
-                {totallyAmountProducts === 0 ? ''
-                  : <button
-                    onClick={() => dispatch(clearProducts())}
-                    className='main__cart--clear button'
-                  >
-                    Clear all
-                  </button>
-                }
-
-                <button className='main__cart--button button'>
-                  Back
-                </button>
-              </div>
-            </Link>
-          }/>
         </Routes>
         
         <Routes>
@@ -131,10 +112,6 @@ const Main: React.FC = () => {
                 <Card />
               </div>
             </div>
-          }/>       
-                  
-          <Route path='/cart' element={
-            <Cart />
           }/>
         </Routes>
       </div>

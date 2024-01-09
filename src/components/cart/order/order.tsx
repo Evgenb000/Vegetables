@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux'
-import { clearProducts } from '../../../../redux/slices/productSlice';
+import { clearProducts } from '../../../redux/slices/productSlice';
 import './order.scss';
 import React from 'react';
 
